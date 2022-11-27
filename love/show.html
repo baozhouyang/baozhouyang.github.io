@@ -1,7 +1,4 @@
----
-layout: false
----
-<!DOCTYPE html>
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -100,7 +97,7 @@ layout: false
 
 <body>
 <div class="cs">
-    <img src="images/lover.jpg" id="logo">
+    <img src="images/lover.jpg" id="logo" loading="lazy">
 </div>
 <canvas class="canvas" width="1820" height="905"></canvas>
 <p class="text" style="color: #ed3073;">
@@ -135,7 +132,7 @@ layout: false
             S.Drawing.init('.canvas');
             document.body.classList.add('body--ready');
             //想说的话
-            S.UI.simulate("{{被表白者}}|梦梦|爱你！|1周年|快乐|永远|在一起|#countdown 3|#time");
+            S.UI.simulate("|梦梦|爱你！|1周年|快乐|永远|在一起|#countdown 3|#time");
             S.Drawing.loop(function () {
                 S.Shape.render();
             });

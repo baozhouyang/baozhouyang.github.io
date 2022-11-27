@@ -1,0 +1,56 @@
+{
+    "fromMe": [{
+        "id": "0000",
+        "details": [
+            [
+                "在吗？",
+                "梦梦宝贝😘",
+                "三周年快乐呀",
+                "<img src='https://oss-demo-bzy.oss-cn-hangzhou.aliyuncs.com/photos/IMG_F9EFECD11DB7-1.jpeg'>",
+                "已经两个月📅没见到你啦",
+                "好想你啊～",
+                "<img src='https://oss-demo-bzy.oss-cn-hangzhou.aliyuncs.com/photos/11.webp'>",
+                "对不起宝贝，今年又不能在你身边陪你过三周年了",
+                "都怪这破疫情",
+                "不过这一年和梦梦也有好多的美好",
+                "最近的一张合照哈哈哈",
+                "<img src='https://oss-demo-bzy.oss-cn-hangzhou.aliyuncs.com/photos/IMG_0080.jpeg'>",
+                "还记得和一起喝奶茶",
+                "<img src='https://oss-demo-bzy.oss-cn-hangzhou.aliyuncs.com/photos/IMG_7689.jpeg'>",
+                "和你一起吃糯糯唧唧",
+                "<img src='https://oss-demo-bzy.oss-cn-hangzhou.aliyuncs.com/photos/IMG_8893.jpeg'>"
+            ]
+        ],
+        "responses": [{
+            "content": "还有呢",
+            "nextAuthor": ["0001"]
+        }]
+    }, {
+        "id": "0001",
+        "details": [
+            [
+                "<img src='https://oss-demo-bzy.oss-cn-hangzhou.aliyuncs.com/photos/IMG_8896.jpeg'>",
+                "还有和梦梦一起放风筝，虽然风筝没飞起来，但是超级开心",
+                "<img src='https://oss-demo-bzy.oss-cn-hangzhou.aliyuncs.com/photos/IMG_7683.jpeg'>",
+                "嘿嘿，亲亲小脸蛋😘",
+                "很快我们就会再见面哒",
+                "三周年快乐，宝贝"
+            ]
+        ],
+        "responses": [{
+            "content": "还有吗，还有吗",
+            "nextAuthor": ["0002"]
+        }]
+    },{
+        "id": "0002",
+        "details": [
+            [
+                "爱你爱你爱你，宝贝",
+                "可以看小作文啦"
+            ]
+        ]
+    }
+
+],
+    "fromUser": []
+}
