@@ -124,13 +124,47 @@
     }
 }
 .loading-img {
-    background: url(https://npm.elemecdn.com/anzhiyu-blog@2.1.1/img/avatar.webp) no-repeat center center;
+    background: url(https://oss-demo-bzy.oss-cn-hangzhou.aliyuncs.com/photos/111.jpeg) no-repeat center center;
     background-size: cover;
 }
 
 /*全局字体*/
 @font-face {
-    font-family: 'MiSans-Light';
+    font-family: 'MiSans-Light','斗鱼追光体';
     font-display: swap;
     src: url('/fonts/MiSans-Light.ttf') format("truetype");
 }
+
+@font-face {
+    font-family: '斗鱼追光体';
+    font-display: swap;
+    src: url('/fonts/斗鱼追光体.ttf') format("truetype");
+}
+
+/*welcome*/
+#welcome-info {
+    overflow: hidden;
+    --icat-card-welcome: #49b1f5;
+}
+#welcome-info .welcome-time {
+    width: 100%;
+    margin: 12px 0 0;
+    display: inline-flex;
+}
+#welcome-info .welcome-message {
+    width: 100%;
+    margin-bottom: 8px;
+    display: inline-flex;
+}
+#welcome-info .welcome-region {
+    background: var(--icat-background);
+    border: var(--style-border);
+    color: var(--icat-fontcolor);
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 10px;
+    margin: 6px 0;
+}
+
+/* 欢迎信息栏样式 */
